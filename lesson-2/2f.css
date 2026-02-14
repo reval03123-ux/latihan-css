@@ -1,0 +1,44 @@
+.judul{
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.harga {
+    font-size: 18px;
+    color: rgb(0,118,0);
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.link {
+    font-size: 16px;
+    color: rgb(0,113,133);
+    text-decoration: none;
+    font-size : 18px;
+}
+
+.button-1 {
+    background-color: rgb(255,216,20);
+    color: black;
+    padding: 5px 25px;
+    border: none;
+    border-radius: 15px;
+}
+
+.button-1:active {
+    transform: scale(0.95);
+}
+
+.button-2 {
+    background-color: rgb(255,164,28);
+    color: black;
+    padding: 5px 25px;
+    border: none;
+    border-radius: 15px;
+}
+
+.button-2:active {
+    transform: scale(0.95);
+}

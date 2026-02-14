@@ -1,0 +1,25 @@
+.button-1 {
+    background-color: rgb(121,82,179);
+    color:white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.button-1:active {
+    transform: scale(0.95);
+}
+
+.button-2 {
+background-color: white;
+color: grey;
+font-weight: bold;
+padding: 10px 20px;
+border-radius: 5px;
+border: 1px solid #007bff;
+}
+
+.button-2:active {
+    transform: scale(0.95);
+}

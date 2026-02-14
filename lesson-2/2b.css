@@ -1,0 +1,11 @@
+.container-button button {
+    background-color: rgb(255, 261, 20);
+    border: none;
+    color: black;
+    padding: 10px 50px;
+    border-radius: 20px;
+}
+
+.container-button button:active {
+    transform: scale(0.95);
+}
