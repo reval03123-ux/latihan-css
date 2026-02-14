@@ -1,0 +1,16 @@
+
+.container-button button {
+   background-color: black;
+   color:white;
+   padding: 10px 20px;
+   border: none;
+   cursor: pointer;
+   transition:all 0.3s ease;
+}
+
+.container-button button:hover {
+    opacity: 0.5;
+}
+.container-button button:active {
+    transform: scale(0.95);
+}

@@ -1,0 +1,28 @@
+.container {
+    font-family: verdana;
+}
+.verdana {
+    margin-bottom: 0px;
+    font-size: 28px;
+}
+.beginner {
+    color: grey;
+    margin-top: 5px;
+}
+.btn {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.btn:hover {
+    background-color: darkgreen;
+    transform: scale(1.1);
+}
+.btn:active {
+   transform: scale(0.95);
+}

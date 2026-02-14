@@ -1,0 +1,17 @@
+.container-button button {
+    background-color: rgb(255, 261, 20);
+    border: none;
+    color: black;
+    padding: 10px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.container-button button:hover {
+    opacity: 0.8;
+    filter: brightness(1.2);
+}
+
+.container-button button:active {
+    transform: scale(0.95);
+}

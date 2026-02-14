@@ -1,0 +1,39 @@
+.button-1{
+    background-color: rgb(10,102,194);
+    font-weight: bold;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border:none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.button-1:hover {
+    filter: brightness(0.8);
+    color: white;
+    transform: scale(0.9);
+}
+
+.button-1:active {
+    transform: scale(0.95);}
+
+.button-2 {
+    background-color: white;
+    font-weight: bold;
+    color: rgb(10,102,194);
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid rgb(10,102,194);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button-2:hover {
+    filter: brightness(0.8);
+    color: rgb(10,102,194);
+    transform: scale(1.1);
+}
+
+.button-2:active {
+    transform: scale(0.95);
+}
