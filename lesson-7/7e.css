@@ -1,0 +1,8 @@
+#search {
+    border-radius: 20px;
+    width: 200px;
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 1px 6px rgba(32,33,36,0.28);
+}

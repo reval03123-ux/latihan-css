@@ -1,0 +1,19 @@
+.container {
+    font-family: arial;
+}
+.usd {
+    color: grey;
+    position: relative;
+    top: 3px;
+    font-size:20px;
+}
+.green {
+    color: green;
+    line-height: 10px;
+}
+.more {
+    color: grey;
+}
+.minus {
+    color: red;
+}

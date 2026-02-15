@@ -1,0 +1,37 @@
+.container {
+    font-family: Arial;
+}
+#email {
+    width: 360px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+}
+.email {
+    color: grey;
+}
+.paragraph {
+    color: grey;
+}
+.container button {
+    background-color:blue;
+    border: none;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 15px;
+    width: 360px;
+    transition: all 0.3s ease;
+}
+.container button:hover {
+    transform: scale(0.95);
+    transform: translateY(3px)
+}
+.container button:active {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
