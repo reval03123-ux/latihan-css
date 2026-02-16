@@ -1,0 +1,11 @@
+.text {
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px;
+    max-width: 200px;
+}
+.button {
+    display: inline-block;
+    vertical-align: middle;
+}

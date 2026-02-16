@@ -1,0 +1,42 @@
+.container {
+    width: 400px;
+    font-family: arial;
+}
+
+.text {
+    display: inline-block;
+    width: 160px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    vertical-align: middle;
+}
+.email {
+    display: block;
+    width: 358px;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+.btn {
+    display: block;
+    font-weight: bold;
+    width: 390px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition:all 0.3s ease;
+    padding: 12px;
+    font-size: 16px
+}
+.btn:hover {
+    transform: scale(0.95);
+}
+.btn:active {
+    transform: scale(1.1);
+}
+

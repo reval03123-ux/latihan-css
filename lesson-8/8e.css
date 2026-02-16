@@ -1,0 +1,40 @@
+.container {
+    font-family: arial;
+}
+.text {
+     display: block;
+    border: none;
+    width: 200px;
+    outline: none;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+}
+.submit {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+}
+.submit:hover {
+    transform: scale(0.95)
+}
+.submit:active {
+    transform: scale(1.1);
+}
+.submit2 {
+    background-color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.submit2:hover {
+    transform: scale(0.95);
+}
+.submit2:active {
+    transform: scale(1.1);
+}
