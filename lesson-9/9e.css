@@ -1,0 +1,39 @@
+.container {
+    font-family: arial;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding : 10px 15px;
+    width:500px;
+    border-radius: 20px;
+}
+.profile,#text,.tweet {
+    vertical-align: middle;
+}
+.profile {
+    width: 100px;
+    border-radius: 100px;
+}
+.tweet {
+    background-color:blue;
+    font-weight: bold;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+   border: none;
+    border-radius: 20px;
+    cursor:pointer;
+    transition: all 0.3 ease;
+}
+#text {
+    width:250px;
+    border: none;
+    font-size: 18px;
+    outline: none;
+}
+.tweet:hover {
+    transform: scale(1.1);
+}
+.tweet:active {
+    transform: scale(0.9);
+}

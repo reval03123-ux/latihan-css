@@ -1,0 +1,12 @@
+.container {
+    background-color: rgb(50, 48, 48);
+    font-family: sans-serif;
+    width: 300px;
+    padding: 10px 15px;
+}
+.h3 {
+    color: white;
+}
+.p {
+    color: grey;
+}

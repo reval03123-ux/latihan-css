@@ -18,10 +18,10 @@
     cursor: pointer;
 
 }
-.submit:hover {
+.submit:active {
     transform: scale(0.95)
 }
-.submit:active {
+.submit:hover {
     transform: scale(1.1);
 }
 .submit2 {
@@ -32,9 +32,9 @@
     transition: all 0.3s ease;
     cursor: pointer;
 }
-.submit2:hover {
+.submit2:active {
     transform: scale(0.95);
 }
-.submit2:active {
+.submit2:hover {
     transform: scale(1.1);
 }

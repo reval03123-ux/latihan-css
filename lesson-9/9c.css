@@ -1,0 +1,19 @@
+.container {
+    font-family: sans-serif;
+}
+.btn {
+    border: 1px solid black;
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+}
+.btn:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.2);
+    transform: translateY(-3px);
+}
+.btn:active {
+    transform: scale(0.9);
+    transform: translateY(3px);
+}
