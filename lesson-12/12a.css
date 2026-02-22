@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+}
+.item-200 {
+    background-color: lightblue;
+    width: 200px;
+    flex-shrink: 0;
+
+}
+.item-75 {
+    background-color: pink;
+    width: 75px;
+    flex-shrink: 0;
+}

@@ -1,0 +1,46 @@
+.container {
+    background-color: rgb(154, 27, 145);
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 20px;
+}
+.home {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.search-wrapper {
+    display: flex;
+    flex: 1;
+}
+.searchbox {
+    width: 100%;
+    color: grey;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.download-btn {
+    background-color:  rgb(154, 27, 145);
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+.download-btn:hover {
+    background-color: white;
+    color: rgb(154, 27, 145);
+    border: 1px solid rgb(154, 27, 145);
+    transform: scale(1.1);
+}
+.download-btn:active {
+    transform: scale(0.9);
+}

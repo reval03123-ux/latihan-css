@@ -1,0 +1,13 @@
+.container-12c {
+    display: flex;
+    /* Memberi jarak merata di antara item */
+    justify-content: space-between; 
+    align-items: center;
+    background-color: white; /* Sesuai background di screenshot */
+    height: 50px;
+}
+
+.item {
+    background-color: pink;
+    padding: 5px 10px; /* Memberi sedikit ruang di dalam kotak pink */
+}

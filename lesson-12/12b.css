@@ -1,0 +1,18 @@
+.container {
+    display: flex
+}
+.item1 {
+    background-color: lightblue;
+    width: 50px;
+    flex-shrink: 0;
+}
+.item2 {
+    background-color: pink;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+.item3 {
+    width: 75px;
+    background-color: lightblue;
+    flex-shrink: 0;
+}

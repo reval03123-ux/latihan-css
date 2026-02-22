@@ -1,0 +1,55 @@
+.container {
+    background: white;
+    border-radius: 8px;
+    width: 350px;
+    padding: 20px;
+    font-family: sans-serif;
+}
+.profile-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+.info {
+    flex-grow: 1;
+}
+.name {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+.desc {
+    font-size: 14px;
+    margin: 0;
+    color: grey;
+}
+.status {
+    margin: 0;
+    font-size: 12px;
+    color: grey;
+}
+.follow-btn {
+    background-color: blue;
+    font-weight: bold;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+.follow-btn:hover {
+    background-color: white;
+    color: rgb(154, 27, 145);
+    border: 1px solid rgb(154, 27, 145);
+    transform: scale(1.1);
+}
+.follow-btn:active {
+    transform: scale(0.9);
+}

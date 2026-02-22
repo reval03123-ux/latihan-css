@@ -1,0 +1,22 @@
+.menu-card {
+    font-family: sans-serif;
+    width: 350px;   
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.label {
+    font-size: 20px;
+}
+.badge {
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    padding: 4px 8px;
+    font-weight: bold;
+}
