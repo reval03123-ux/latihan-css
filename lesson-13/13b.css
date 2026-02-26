@@ -1,0 +1,30 @@
+.card-container {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    max-width: 600px;
+
+}
+.box-pink {
+    background-color: pink;
+    width: 30%;
+    height: 100px;
+}
+.box-blue {
+    flex-grow: 1;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: flex-start;
+}
+.row2-black {
+    background-color: black;
+    color: white;
+    width: fit-content;
+}

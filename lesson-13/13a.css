@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    padding: 5px;
+    width: fit-content;
+}
+.box-pink {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-1 {
+   background-color: black;
+   width: 30px;
+   height: 15px;
+   padding: 5px 10px;
+   color: white;
+   font-family: sans-serif;
+}
+.box-blue {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+}
