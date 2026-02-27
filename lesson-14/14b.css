@@ -1,0 +1,17 @@
+body {
+    height: 3000px;
+    font-family: arial;
+    margin: 0;
+}
+.right-sidebar {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100px;
+    background-color: green;
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+
+}

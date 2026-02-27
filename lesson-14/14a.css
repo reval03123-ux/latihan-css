@@ -1,0 +1,12 @@
+body {
+    height: 3000px;
+    font-family: arial;
+}
+.bottom-right-box {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+}

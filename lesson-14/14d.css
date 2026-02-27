@@ -1,0 +1,48 @@
+body {
+    height: 300px;
+    margin: 0;
+    font-family: sans-serif;
+}
+.right-sidebar {
+    position: fixed;
+    right:0;
+    top: 0;
+    bottom:0;
+    padding: 20px;
+    width: 100px;
+    background-color: green;
+    color: white;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal {
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+}
+.modal-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.close-btn {
+     transition: all 0.3s;
+}
+.close-btn:hover {
+   
+    cursor: pointer;
+    background-color: red;
+    transform: scale(1.1);
+}
+.close-btn:active {
+    transform: scale(0.9);
+}

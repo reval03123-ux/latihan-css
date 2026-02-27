@@ -1,0 +1,50 @@
+body {
+    height: 3000px;
+    font-family: sans-serif;
+    background: white;
+}
+.container {
+    position: fixed;
+    top: 0;
+    left:0;
+    bottom: 0;
+    display: flex;
+}
+.left-content {
+    width: 72px;
+    background-color: #1e1f22;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 12px;
+    gap: 10px;
+}
+.profile-pict {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: border-radius 0.2s; 
+}
+.profile-pict:hover {
+    border-radius: 15px;
+}
+.content {
+    width: 200px;
+    background-color: #2b2d31;
+    color: #949ba4;
+    padding: 15px;
+}
+.content-header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 20px;
+    color: white;
+}
+.channel-list p {
+    margin: 10px 0;
+    cursor:pointer;
+}
