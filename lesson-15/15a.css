@@ -1,0 +1,21 @@
+body {
+    height: 3000px;
+}
+.btn {
+    position: absolute;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border:none;
+    background-color: black;
+    color: white;
+    transition: all 0.3s ease;
+}
+.btn:hover {
+    transform: scale(1.1);
+    background-color: rgb(55, 55, 55);
+}
+.btn:active {
+    transform: scale(0.9);
+}
